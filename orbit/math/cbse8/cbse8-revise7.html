@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+  </head>
+  <body>
+    <orbit-reviewarea color="violet">
+      <orbit-prompt
+        question="Set of all counting numbers, zero and negatives of all counting numbers taken together?"
+        answer="Integers"
+      ></orbit-prompt>
+      <orbit-prompt
+        question="Evaluate: |27 - 8| + |-9|"
+        answer="$$|27 - 8| + |-9| = |9| + 9 = 9 + 9 = 18$$"
+      ></orbit-prompt>
+      <orbit-prompt
+        question="Arrange the following integers in ascending order: 135, -87, -9, 87, -23, 263, -172, 18?"
+        answer="Given negative integers are -87, -9, -23, -172
+		In ascending order they are -172, -87, -23, -9
+		Given positive integers are 135, 87, 263, 18
+		In ascending order they are 18, 87, 135, 263
+		All integers in ascending order are:
+		-172, -87, -23, -9, 18, 87, 135, 263"
+      ></orbit-prompt>
+	  <orbit-prompt 
+	    cloze="The largest negative integer is {-1.}"
+	  ></orbit-prompt>
+      <orbit-prompt
+        question="What do you understand by 'addition operation is closed for the set of integers'?"
+        answer="If a and b are integers, then (a + b) is an integer."
+      ></orbit-prompt>
+      <orbit-prompt
+        question="What do you understand by 'addition operation is commutative for the set of integers'?"
+        answer="If a and b are integers, then (a + b) = (b + a)."
+      ></orbit-prompt>
+      <orbit-prompt
+        question="What do you understand by 'additive identity of the set of integers'?"
+        answer="a + 0 = 0 + a = a for every integer a."
+      ></orbit-prompt>
+      <orbit-prompt
+        question="What do you understand by 'additive inverse of an integer'?"
+        answer="For every integer $a$, there exists 
+		an integer $-a$ such that 
+		$a$ + $(-a)$ = $(-a)$ + $a$ = 0."
+      ></orbit-prompt>
+	  
+    </orbit-reviewarea>
+  </body>
+
+</html>
